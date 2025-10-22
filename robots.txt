@@ -1,0 +1,38 @@
+# robots.txt dla zwiedzamyusa.pl
+# Polski przewodnik po USA - Wycieczki po Kalifornii
+
+User-agent: *
+Allow: /
+Allow: /images/
+
+# Priorytetowe strony dla botów wyszukiwarek
+Crawl-delay: 0
+
+# Sitemap
+Sitemap: https://zwiedzamyusa.pl/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yandex (dla Polaków mieszkających w krajach gdzie Yandex jest popularny)
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+# Facebook (dla Open Graph)
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /

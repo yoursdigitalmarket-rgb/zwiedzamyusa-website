@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://zwiedzamyusa.pl/</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zwiedzamyusa.pl/" />
+    <image:image>
+      <image:loc>https://zwiedzamyusa.pl/images/bartek.jpg</image:loc>
+      <image:title>Bartek - Polski Przewodnik po USA</image:title>
+      <image:caption>Polski przewodnik turystyczny mieszkający w Kalifornii</image:caption>
+    </image:image>
+  </url>
+
+  <!-- O Mnie Section -->
+  <url>
+    <loc>https://zwiedzamyusa.pl/#about</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zwiedzamyusa.pl/#about" />
+  </url>
+
+  <!-- Miejsca Section -->
+  <url>
+    <loc>https://zwiedzamyusa.pl/#places</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zwiedzamyusa.pl/#places" />
+  </url>
+
+  <!-- Oferta Section -->
+  <url>
+    <loc>https://zwiedzamyusa.pl/#offer</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zwiedzamyusa.pl/#offer" />
+  </url>
+
+  <!-- Kontakt Section -->
+  <url>
+    <loc>https://zwiedzamyusa.pl/#contact</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://zwiedzamyusa.pl/#contact" />
+  </url>
+
+</urlset>
