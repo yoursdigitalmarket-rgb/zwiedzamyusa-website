@@ -638,91 +638,6 @@
             transform: scale(1.1);
         }
 
-        /* Pricing Tables */
-        .pricing-section {
-            padding: 5rem 2rem;
-            background: var(--dark);
-        }
-
-        .pricing-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 1200px;
-            margin: 3rem auto 0;
-        }
-
-        .pricing-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 2px solid rgba(212, 154, 65, 0.3);
-            border-radius: 12px;
-            padding: 2.5rem;
-            text-align: center;
-            transition: all 0.3s;
-            position: relative;
-        }
-
-        .pricing-card:hover {
-            transform: translateY(-10px);
-            border-color: var(--gold);
-            box-shadow: 0 10px 30px rgba(212, 154, 65, 0.3);
-        }
-
-        .pricing-card.featured {
-            border-color: var(--gold);
-            background: rgba(212, 154, 65, 0.1);
-        }
-
-        .pricing-badge {
-            position: absolute;
-            top: -15px;
-            right: 20px;
-            background: var(--gold);
-            color: var(--dark);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 700;
-        }
-
-        .pricing-card h3 {
-            color: var(--light);
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-        }
-
-        .pricing-price {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--gold);
-            margin: 1.5rem 0;
-        }
-
-        .pricing-price span {
-            font-size: 1.2rem;
-            color: #aaa;
-        }
-
-        .pricing-features {
-            list-style: none;
-            padding: 0;
-            margin: 2rem 0;
-            text-align: left;
-        }
-
-        .pricing-features li {
-            color: var(--light);
-            padding: 0.8rem 0;
-            border-bottom: 1px solid rgba(212, 154, 65, 0.1);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .pricing-features li i {
-            color: var(--gold);
-        }
-
         /* Comparison Table */
         .comparison-section {
             padding: 5rem 2rem;
@@ -906,7 +821,7 @@
                Zwiedzanie Los Angeles, San Francisco, Yosemite, Grand Canyon. Doświadczenie, które zapamiętasz na zawsze.</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
                 <a href="#contact" class="cta-primary" aria-label="Przejdź do formularza kontaktowego">Zaplanuj Wycieczkę</a>
-                <a href="#pricing" class="cta-secondary">Zobacz Ceny</a>
+                <a href="#contact" class="cta-secondary">Skontaktuj Się</a>
             </div>
         </div>
     </section>
@@ -1061,7 +976,7 @@
                     </div>
                     <h3>Wycieczki Grupowe po USA</h3>
                     <p>Dołącz do grupy max 12 osób i zwiedzaj Los Angeles, San Francisco, Las Vegas z polskim przewodnikiem. Idealne dla singli i par!</p>
-                    <a href="#pricing" class="cta-secondary">Zobacz Terminy i Ceny</a>
+                    <a href="#contact" class="cta-secondary">Zapytaj o Terminy</a>
                 </div>
                 <div class="offer-card">
                     <div class="offer-icon">
@@ -1077,73 +992,9 @@
                     </div>
                     <h3>Wycieczki Jednodniowe (Day Tours)</h3>
                     <p>Krótkie wypady z Los Angeles do Hollywood, Malibu, Santa Monica. Idealne dla osób z ograniczonym czasem podczas pobytu w USA.</p>
-                    <a href="#pricing" class="cta-secondary">Sprawdź Dostępność</a>
+                    <a href="#contact" class="cta-secondary">Sprawdź Dostępność</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section class="pricing-section" id="pricing" role="region" aria-label="Cennik wycieczek">
-        <div class="container">
-            <span class="section-tag">Przejrzyste Ceny</span>
-            <h2 class="section-title">Pakiety Wycieczek - Wybierz Idealny dla Siebie</h2>
-
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3>🌇 Day Tour</h3>
-                    <div class="pricing-price">
-                        $199 <span>/ osoba</span>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 8-10 godzin zwiedzania</li>
-                        <li><i class="fas fa-check"></i> Los Angeles lub okolice</li>
-                        <li><i class="fas fa-check"></i> Hollywood, Beverly Hills, Santa Monica</li>
-                        <li><i class="fas fa-check"></i> Transport klimatyzowanym pojazdem</li>
-                        <li><i class="fas fa-check"></i> Polski przewodnik</li>
-                        <li><i class="fas fa-check"></i> Woda i przekąski</li>
-                    </ul>
-                    <a href="#contact" class="cta-secondary">Zarezerwuj</a>
-                </div>
-
-                <div class="pricing-card featured">
-                    <div class="pricing-badge">NAJPOPULARNIEJSZY</div>
-                    <h3>🏔️ Weekend Trip</h3>
-                    <div class="pricing-price">
-                        $599 <span>/ osoba</span>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 2-3 dni zwiedzania</li>
-                        <li><i class="fas fa-check"></i> Yosemite lub Las Vegas + Grand Canyon</li>
-                        <li><i class="fas fa-check"></i> Nocleg w hotelu (opcjonalnie camping)</li>
-                        <li><i class="fas fa-check"></i> Wszystkie transfery</li>
-                        <li><i class="fas fa-check"></i> Polski przewodnik 24/7</li>
-                        <li><i class="fas fa-check"></i> Elastyczny program</li>
-                    </ul>
-                    <a href="#contact" class="cta-primary">Rezerwuj Teraz</a>
-                </div>
-
-                <div class="pricing-card">
-                    <h3>🚗 Full California Trip</h3>
-                    <div class="pricing-price">
-                        $1,999 <span>/ osoba</span>
-                    </div>
-                    <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> 7-10 dni w USA</li>
-                        <li><i class="fas fa-check"></i> LA, SF, Yosemite, Vegas, Parki</li>
-                        <li><i class="fas fa-check"></i> Noclegi w hotelach</li>
-                        <li><i class="fas fa-check"></i> Wszystkie transfery i transport</li>
-                        <li><i class="fas fa-check"></i> Polski przewodnik przez cały czas</li>
-                        <li><i class="fas fa-check"></i> Spersonalizowana trasa</li>
-                    </ul>
-                    <a href="#contact" class="cta-secondary">Zapytaj o Szczegóły</a>
-                </div>
-            </div>
-
-            <p style="text-align: center; color: #aaa; margin-top: 3rem; font-size: 0.95rem;">
-                * Ceny orientacyjne dla grup 4-6 osób. Wycieczki indywidualne wyceniane osobno.
-                Bilety wstępu do parków narodowych nie są wliczone w cenę.
-            </p>
         </div>
     </section>
 
@@ -1739,39 +1590,6 @@
             statsObserver.observe(statsSection);
         }
 
-        // Premium Scroll Animations
-        const animateOnScroll = (entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                    observer.unobserve(entry.target);
-                }
-            });
-        };
-
-        const scrollObserver = new IntersectionObserver(animateOnScroll, {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        });
-
-        // Animate all major sections
-        const elementsToAnimate = document.querySelectorAll(`
-            .pricing-card,
-            .testimonial-card,
-            .gallery-item,
-            .faq-item,
-            .comparison-row,
-            .place-card,
-            .offer-card,
-            .badge
-        `);
-
-        elementsToAnimate.forEach((el, index) => {
-            el.style.opacity = '0';
-            el.style.animationDelay = `${index * 0.1}s`;
-            scrollObserver.observe(el);
-        });
-
         // Parallax effect on hero
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
@@ -1781,41 +1599,6 @@
             }
         });
 
-        // Hover effect on pricing cards
-        document.querySelectorAll('.pricing-card').forEach(card => {
-            card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-10px) scale(1.02)';
-            });
-            card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
-            });
-        });
-
-        // Smooth counter for pricing badges
-        const observePricingBadge = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const badge = entry.target.querySelector('.pricing-badge');
-                    if (badge) {
-                        badge.style.animation = 'pulse 2s infinite';
-                    }
-                }
-            });
-        }, { threshold: 0.5 });
-
-        document.querySelectorAll('.pricing-card.featured').forEach(card => {
-            observePricingBadge.observe(card);
-        });
-
-        // Add pulse animation to CSS dynamically
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes pulse {
-                0%, 100% { transform: scale(1); }
-                50% { transform: scale(1.05); }
-            }
-        `;
-        document.head.appendChild(style);
     </script>
 </body>
 </html>
